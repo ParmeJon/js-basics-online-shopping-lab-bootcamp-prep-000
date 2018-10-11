@@ -26,10 +26,10 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else var sentenceFinish = []; { 
     for (var i = 0; i < cart.length; i++) {
-    for (var item in cart[i]){
-      sentenceFinish.push(`${item[0]} at $${cart[i]}`)
+    for (var key in cart[i]){
+      sentenceFinish.push(`${cart[i][key]}`);
     }
-   return `In your cart, you have ${sentenceFinish.join(', ')}.`
+   return `In your cart, you have ${sentenceFinish.join(' at $')}.`
    }
   }
   }
