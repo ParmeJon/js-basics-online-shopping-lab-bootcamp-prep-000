@@ -28,9 +28,11 @@ function viewCart() {
   var sentenceFinish = []; 
   var fullSentenceFinish = [];{ 
     for (var i = 0; i < cart.length; i++) {
-    for (var key in cart[i]){
-      sentenceFinish.push(`${cart[i][key]}`);
-      var joinedSentence = `${sentenceFinish.join(' at $')}`;
+ // for (var key in cart[i]){
+ //     sentenceFinish.push(`${cart[i][key]}`);
+//   var joinedSentence = `${sentenceFinish.join(' at $')}`;
+    var sentenceFinish.push(`${cart[i].itemName}`)
+    var joinedSentence = 
     }
    }
    return `In your cart, you have ${joinedSentence}.`
