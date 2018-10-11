@@ -32,12 +32,12 @@ function viewCart() {
     sentence.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
   }
   
-  if (cart.length === 2) {
-    
+  if (cart.length === 1) {
+return `In your cart, you have ${sentenceFinish}.`;
   }
     
    }
-   return `In your cart, you have ${sentenceFinish}.`;
+
   }
 
 function total() {
