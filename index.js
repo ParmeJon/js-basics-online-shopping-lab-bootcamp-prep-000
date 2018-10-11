@@ -30,7 +30,11 @@ function viewCart() {
   var fullSentenceFinish = [];{ 
   for (var i = 0; i < cart.length; i++) {
     sentence.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
-    }
+  }
+  
+  if (cart.length === 2) {
+    
+  }
     
    }
    return `In your cart, you have ${sentenceFinish}.`;
