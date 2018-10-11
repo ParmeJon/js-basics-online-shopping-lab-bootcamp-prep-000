@@ -44,7 +44,7 @@ function total() {
   // write your code here
   var priceList = [];
   for (i = 0; i < cart.length; i++){
-    priceList.push(parseInt(cart[i].itemPrice);
+    priceList.push(parseInt(cart[i].itemPrice));
   }
 }
 
