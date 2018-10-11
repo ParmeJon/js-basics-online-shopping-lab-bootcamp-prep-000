@@ -43,7 +43,7 @@ function viewCart() {
 function total() {
   // write your code here
   var priceList = [];
-  for (i = 0; i < cart.length; i++){
+  for (var i = 0; i < cart.length; i++){
     priceList.push(parseInt(cart[i].itemPrice));
   }
   return priceList.reduce(reducer)
