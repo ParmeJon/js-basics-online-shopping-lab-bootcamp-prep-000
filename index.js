@@ -24,12 +24,13 @@ function viewCart() {
   // write your code here
   if (cart.length === 0) {
     return "Your shopping cart is empty."
-  } else 
+  } else if (
   var  firstSentence = []; 
   var fullSentenceFinish = [];{ 
     for (var i = 0; i < cart.length; i++) {
     firstSentence.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
+    
    }
    return `In your cart, you have ${sentenceFinish}.`;
   }
