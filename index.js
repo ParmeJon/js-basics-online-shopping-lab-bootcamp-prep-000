@@ -38,7 +38,6 @@ function viewCart() {
   } else { var finalItem = sentence.pop()
     return  `In your cart, you have ${sentence.join(', ')}, and ${finalItem}.`;
   }
-
   }
 
 function total() {
