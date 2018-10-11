@@ -25,10 +25,10 @@ function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else 
-  var sentenceFinish = []; 
+  var  firstSentence = []; 
   var fullSentenceFinish = [];{ 
     for (var i = 0; i < cart.length; i++) {
-    sentenceFinish.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
+    firstSentence.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
    }
    return `In your cart, you have ${sentenceFinish}.`;
