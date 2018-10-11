@@ -29,8 +29,8 @@ function viewCart() {
     for (var key in cart[i]){
       sentenceFinish.push(`${cart[i][key]}`);
     }
-   return `In your cart, you have ${sentenceFinish.join(' at $')}.`
    }
+   return `In your cart, you have ${sentenceFinish.join(' at $')}.`
   }
   }
 
