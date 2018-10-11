@@ -34,7 +34,7 @@ function viewCart() {
   if (cart.length === 1) {
     return `In your cart, you have ${sentence}.`;
   } else if (cart.length === 2) {
-    return `In your cart, you have ${sentence.join(', and')}.`
+    return `In your cart, you have ${sentence.join(', and ')}.`
   }
 
   }
