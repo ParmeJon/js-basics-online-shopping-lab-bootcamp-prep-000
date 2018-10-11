@@ -31,7 +31,7 @@ function viewCart() {
  // for (var key in cart[i]){
  //     sentenceFinish.push(`${cart[i][key]}`);
 //   var joinedSentence = `${sentenceFinish.join(' at $')}`;
-    sentenceFinish.push(`${cart[i].itemName} at ${cart[i].itemPrice}`);
+    sentenceFinish.push(`${cart[i].itemName} at $${cart[i].itemPrice}`);
     }
    }
    return `In your cart, you have ${sentenceFinish}.`;
