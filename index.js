@@ -46,6 +46,7 @@ function total() {
   for (i = 0; i < cart.length; i++){
     priceList.push(parseInt(cart[i].itemPrice));
   }
+  return priceList.reduce
 }
 
 function removeFromCart(item) {
