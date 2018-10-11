@@ -36,7 +36,7 @@ function viewCart() {
   } else if (cart.length === 2) {
     return `In your cart, you have ${sentence.join(', and ')}.`
   } else { var finalItem = sentence.pop()
-    return 
+    return  `In your cart, you have ${sentence.join(', and ')}${las
   }
 
   }
