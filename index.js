@@ -36,7 +36,6 @@ function viewCart() {
    }
    return `In your cart, you have ${sentenceFinish}.`;
   }
-  }
 
 function total() {
   // write your code here
