@@ -46,7 +46,8 @@ function total() {
   for (var i = 0; i < cart.length; i++){
     priceList.push(parseInt(cart[i].itemPrice));
   }
-  return priceList.reduce((total, amount) => total + amount); 
+  var totalPrice = priceList.reduce((total, amount) => total + amount)
+  return totalPrice; 
 }
 
 function removeFromCart(item) {
@@ -66,7 +67,7 @@ function placeOrder(cardNumber) {
     return "Sorry, we don't have a credit card on file fore you."
   } else {
     cart = [];
-    return `Your total cost is ${
+    return `Your total cost is $${
   }
   
 }
